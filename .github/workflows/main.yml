@@ -18,5 +18,5 @@ jobs:
       - name: Run Prettier
         run: npm run prettier
       - name: Check Types
-	      run: npm run types
+	run: npm run types
         continue-on-error: true
